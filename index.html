@@ -1,64 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<input lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div {
+            color: blue!important;
+        }
+        .h1 {
+            color:blue;
+        }
+        .h1.maudo {
+            color: red !important;
+        }
+        
+        .h1.mauvang {
+            color:yellow !important;
+        }
+        
+        .h1.mauxanh {
+            color:blue !important;
+        }
+    </style>
 </head>
 <body>
-    <!-- H1 -> h6 là thẻ tiêu đề của 1 đoạn văn (title) -->
-    <h1>Hello World!</h1>
-    <h2>Hello World!</h2>
-    <h3>Hello World!</h3>
-    <h4>Hello World!</h4>
-    <h5>Hello World!</h5>
-    <h6>Hello World!</h6>
-    <!-- p là định dạng đoạn văn -->
-    <p>Trọng Nhân <strong>Dev</strong> </p> 
-    <em>Tôi tên là Nhân</em>
-    <!-- Thẻ strong in đậm + thẻ em in nghiên -->
 
+    <!-- Bài 2: Tạo Form HTML -->
+    <!-- <form action="https://www.youtube.com/@trongnhandev">
+        <label for="hoten">Nhập họ tên: </label> <br>
+        <input type="text" name="" id="" placeholder="Nhập tên bạn vào" required> <br>
 
-    <!-- Sup cho chữ trong nhan dev -->
-    <!-- <sup>Channel</sup> -->
+        <label for="email">Nhập email: </label> <br>
+        <input type="email" name="" id="" placeholder="Nhập email bạn vào" required> <br>
 
+        <label for="">Thông tin số điện thoại</label> <br>
+        <input type="number" name="" id="" value="0708375960"> <br>
 
-    <!-- Sub cho chữ trọng nhân dev  -->
-    <!-- <sub>Channel</sub> -->
+        <input type="date" name="" id=""> <br>
 
-    <!-- <small>Channel</small> -->
+        <select name="" id="">
+            <option value="" selected>Vui lòng chọn đáp án đúng</option>
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+        </select> <br>
+        
+        <label for="">Giới tính:</label>
+        <input type="radio" name="gender" id="">Nam</fo>
+        <input type="radio" name="gender" id="">Nữ</input>
 
+        <br/>
 
-    <!-- ul bất trình tự  -->
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-    </ul>
+        <label for="">Bạn có thích du lịch không</label> 
+        <input type="checkbox" name="yes" id="">Có</input>
+        <input type="checkbox" name="no" id="">Không</input>
+        <br>
+        <input type="submit" value="Gửi thông tin"> <br>
+    </form> -->
 
-    <!-- ol có trình tự  -->
-    <ol>
-        <li>Item 1</li>
-        <li>Item 1</li>
-        <li>Item 1</li>
-        <li>Item 1</li>
-        <li>Item 1</li>
-    </ol>
-    
-    <!-- br là thẻ ngắt dòng -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> Non itaque voluptas iure cum necessitatibus voluptatum eligendi cumque ipsum animi. Soluta perferendis iure doloremque laborum vero minus consequatur est saepe culpa.
-    Non consequuntur quod, placeat facilis laboriosam facere enim quaerat adipisci, voluptatibus a omnis dolorem quo voluptatem eius aut praesentium molestias aliquam dolorum, amet deleniti cumque asperiores. Cupiditate aliquid possimus fuga!</p>
-    <hr>
+    <!-- inline css -->
+    <!-- <div style="color:red;">
+        <h1>Welcome Trọng Nhân Dev</h1>
+    </div> -->
+    <h1 class="h1">
+        <p class="maudo">
+        Trọng Nhân Dev
+        </p>
+    </h1>
+    <h1 class="h1 maudo">Welcome Trang chủ</h1> -> màu đỏ 
+    <h1 class="h1 mauvang">Welcome About us</h1> -> màu vàng
+    <h1 class="h1 mauxanh">Welcome trang liên hệ</h1> -> màu xanh 
+    <div class="text-1">
+        <h1>Welcome Trọng Nhân Dev</h1>
+    </div>
 
-    <!-- liên kết đến google -->
-    <a href="https://www.youtube.com/@trongnhandev" target="_blank">Đường đến google</a> <br/>
-
-    <!-- Thẻ trích dẫn -->
-    <q cite="https://www.youtube.com/@trongnhandev">Trích dẫn cho kênh Trọng Nhân Dev</q>
-
-    <!-- Thẻ hình ảnh -->
-    <img src="./images/mario.png" alt="Ảnh của Mario" width="350" height="200">
+    <div class="text-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consequuntur iste quam necessitatibus beatae tempore omnis qui velit. Deleniti et officiis nihil? Impedit reprehenderit magnam pariatur modi soluta veritatis dolore.
+        Id dolore fugiat illo sunt. Architecto autem eum libero excepturi voluptate ullam ab assumenda, provident tempora eos natus quis magnam ipsam quos eligendi mollitia ex, rerum quas vero consequatur! Nihil.</p>
+    </div>
 </body>
 </html>
