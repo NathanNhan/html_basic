@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+   background-color: rgba(220, 27, 27, 0.872);
+   height: 75px;
+}
+
+.heading_1 {
+    color: white;
+    /* text-align: center; */
+    border: 7px solid #fff;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 25%;
+    padding: 8px;
+}
+
+.banner_img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;  
+}
+
+ul.list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menus {
+    background-color: #f8f8f8;
+    height: 50px;
+    display: inline-block;
+    width: 100%;
+}
+
+.text {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.text h2 {
+    color:rgb(208, 54, 54)
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+}
+
+.form_lien_He {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 30px;
+}
+
+.button_submit {
+    background-color: rgb(207, 27, 27);
+    color: white; 
+    border: 3px solid yellow;
+    padding: 7px 12px;
+}
+
+.email {
+    padding: 7px 12px;
+}
+
+
+footer {
+    background-color: #2a2525;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
