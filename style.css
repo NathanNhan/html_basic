@@ -16,7 +16,7 @@ header {
     border: 7px solid #fff;
     width: max-content;
     margin: 0 auto;
-    border-radius: 25%;
+    border-radius: 50%;
     padding: 8px;
 }
 
@@ -34,7 +34,14 @@ ul.list {
 ul.list li a{
     text-decoration: none;
     color: black;
+    transition: .8s;
 }
+ul.list li a:hover {
+    color: orangered;
+
+}
+
+
 
 .menus {
     background-color: #f8f8f8;
@@ -83,4 +90,23 @@ footer {
     color: whitesmoke;
 }
 
+.container_banner {
+    position: relative;
+}
 
+.chu_banner {
+    position: absolute;
+    top: 50%;
+    font-size: 32px;
+    color: white;
+    border: 3px solid orangered;
+   /* right: 25%;
+   bottom: 0%; */
+}
+
+
+.text p::first-letter {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: orangered;
+}
